@@ -9,7 +9,7 @@ The license text can be seen here, too: http://www.wtfpl.net/about/.
 """
 
 class RC4(object):
-    def __init__(self, key, boxlength):
+    def __init__(self, key, boxlength=256):
         # Init the Vector
         self._box = list(range(0, boxlength))
 
